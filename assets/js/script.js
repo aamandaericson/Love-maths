@@ -14,8 +14,14 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
-function runGame(){
 
+/**
+ * The main game "loop" called when the game is first loaded
+ * And after the user's answer has been processed
+ */
+function runGame(){
+    // Creates two random numbers between 1 and 25
+    let num1 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer(){
